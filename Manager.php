@@ -1,8 +1,6 @@
 <?php
 function connect()
 {
-    $env = getenv('DATABASE_URL');
-    echo $env;
     $dsn = 'pgsql:host='.getenv('DATABASE_HOST').'; dbname='.getenv('DATABASE_NAME').';';
     $usr = getenv('DATABASE_USER');
     $passwd = getenv('DATABASE_PASSWORD');
