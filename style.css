@@ -1,0 +1,29 @@
+.content {
+    width: 75%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.FAILED {
+    background-color: #dddddd;
+}
+.ASSIST {
+    background-color: #9595ff;
+}
+.EASY {
+    background-color: #98fb98;
+}
+.CLEAR {
+    background-color: #AFEEEE;
+}
+.HARD {
+    background-color: #FF6347;
+}
+.EXH {
+    background-color: #ffd900;
+}
+.FC {
+    background-color: #ff8C00;
+}
+
